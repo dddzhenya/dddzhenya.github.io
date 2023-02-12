@@ -1,14 +1,11 @@
-const menuMobileBtn = document.querySelector('.menu-mobile__btn');
-const headerNavMenuMobile = document.querySelector('.header-nav-menu-mobile');
-menuMobileBtn.addEventListener('click', () => {
-headerNavMenuMobile.classList.toggle('menu--open');
+const menuMobileBtn = document.querySelector(".menu-mobile__btn");
+const headerNavMenuMobile = document.querySelector(".header-nav-menu-mobile");
+menuMobileBtn.addEventListener("click", () => {
+headerNavMenuMobile.classList.toggle("menu--open");
 });
 
 $(function () {
-
   $(".slider").slick({
-    /* autoplay: true,
-    autoplaySpeed: 3000, */
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
@@ -165,9 +162,8 @@ $(function () {
   var swiper = new Swiper(".blog-artist swiper", {
     slidesPerView: 1,
     spaceBetween: 10,
-    loop: true,
-    scrollbar: {
-      el: ".swiper-scrollbar blog-artist",
+    pagination: {
+      el: ".swiper-pagination blog-artist",
       type: "progressbar",
     },
     breakpoints: {

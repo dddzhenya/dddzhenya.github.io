@@ -2,10 +2,10 @@ $top-color: #002b45;
 $head-color: #fff;
 @import "fonts.scss";
 
-  html {
+html {
   box-sizing: border-box;
-} 
- 
+}
+
 *,
 *::before,
 *::after {
@@ -44,12 +44,12 @@ a {
 }
 
 .tab {
-  &{
-      border-color: $head-color;
-      cursor: pointer;
-      font-family: "William Subhead Pro Reg";
-      color: $top-color;
-      font-size: 34px;
+  & {
+    border-color: $head-color;
+    cursor: pointer;
+    font-family: "William Subhead Pro Reg";
+    color: $top-color;
+    font-size: 34px;
   }
 
   &-catalog__title::after,
@@ -98,7 +98,6 @@ a {
 }
 
 .product-home {
-
   &-left.slick-arrow,
   &-right.slick-arrow {
     position: absolute;
@@ -183,7 +182,7 @@ a {
     background-color: #e6eef4;
   }
 
-  &-sale-menu__item{
+  &-sale-menu__item {
     background-color: #fbf7f1;
   }
 
@@ -903,7 +902,9 @@ a {
     content: "\ea40";
   }
 }
-
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: #002b45;
+}
 .innovation {
   &__wrapper {
     margin-bottom: 100px;
@@ -977,10 +978,6 @@ a {
     display: none;
   }
 }
-.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
-  background-color: $top-color;
-}
-
 .picture {
   &-next.slick-arrow {
     position: absolute;

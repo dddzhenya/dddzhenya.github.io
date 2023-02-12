@@ -3,7 +3,6 @@ $head-color: #fff;
 
 @media (max-width: 1250px) {
   .small {
-
     &-new-menu__item,
     &-sale-menu__item,
     &-availability-menu__item {
@@ -136,8 +135,7 @@ $head-color: #fff;
   .model__images {
     height: 89vh;
   }
-  }
-
+}
 
 @media (max-width: 1041px) {
   .footer {
@@ -203,7 +201,7 @@ $head-color: #fff;
     &__description {
       display: flex;
       margin-top: 20px;
-      border-bottom: 1px solid rgba(227, 229, 239, .2);
+      border-bottom: 1px solid rgba(227, 229, 239, 0.2);
       padding-bottom: 30px;
     }
 
@@ -213,7 +211,7 @@ $head-color: #fff;
     }
 
     &-title__description {
-      border-left: 1px solid rgba(227, 229, 239, .2);
+      border-left: 1px solid rgba(227, 229, 239, 0.2);
     }
 
     &-catalog-description__title {
@@ -246,7 +244,7 @@ $head-color: #fff;
     }
 
     &-pin {
-      border-bottom: 1px solid rgba(227, 229, 239, .2);
+      border-bottom: 1px solid rgba(227, 229, 239, 0.2);
       padding-top: 15px;
       padding-bottom: 15px;
       margin-bottom: 30px;
@@ -268,7 +266,7 @@ $head-color: #fff;
       content: "";
       width: 4px;
       height: 4px;
-      background-color:$head-color;
+      background-color: $head-color;
       border-radius: 50px;
       top: 7px;
       margin-left: -44px;
@@ -293,7 +291,7 @@ $head-color: #fff;
       justify-content: center;
     }
   }
-  .faq{
+  .faq {
     border-left: none;
     padding-right: 0;
   }
@@ -302,8 +300,8 @@ $head-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid rgba(227, 229, 239, .2);
-    border-bottom: 1px solid rgba(227, 229, 239, .2);
+    border-top: 1px solid rgba(227, 229, 239, 0.2);
+    border-bottom: 1px solid rgba(227, 229, 239, 0.2);
     height: 46px;
   }
 
@@ -353,9 +351,9 @@ $head-color: #fff;
       margin: 0 auto;
     }
   }
-  .blog-new__box{
-      padding-left: 5px;
-      padding-right: 5px;
+  .blog-new__box {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
@@ -382,13 +380,14 @@ $head-color: #fff;
   .menu-mobile__img {
     width: 47px;
   }
-  .menu-mobile__btn{
+  .menu-mobile__btn {
     display: flex;
     margin-left: 7px;
   }
-.header-nav-menu-mobile.menu--open{
-  display: block;
-}
+  .header-nav-menu-mobile.menu--open {
+    display: block;
+    top: -15px;
+  }
 
   .search {
     &__button {
@@ -469,7 +468,7 @@ $head-color: #fff;
 
     &__btn {
       right: 56px;
-      bottom: -29px
+      bottom: -29px;
     }
   }
 
@@ -586,7 +585,6 @@ $head-color: #fff;
   .swiper {
     display: block;
   }
-
   .blog {
     &-new {
       display: none;
@@ -614,7 +612,7 @@ $head-color: #fff;
 
     &:nth-child(odd) {
       margin-right: 0;
-          padding-bottom: 21px;
+      padding-bottom: 21px;
     }
   }
 }
@@ -629,16 +627,16 @@ $head-color: #fff;
       border-bottom: none;
     }
   }
-  .sample{
+  .sample {
     border-bottom: none;
   }
-  .comfort__list{
+  .comfort__list {
     line-height: 40px;
   }
 }
 
 @media (max-width: 760px) {
-  .blog__subtitle{
+  .blog__subtitle {
     margin-right: 30px;
   }
   .small {
@@ -739,7 +737,6 @@ $head-color: #fff;
     }
   }
 
-
   .comfort {
     &__inner {
       display: flex;
@@ -803,7 +800,7 @@ $head-color: #fff;
     }
 
     &__item:last-child {
-      border-bottom: none
+      border-bottom: none;
     }
 
     &-showroom__title,
@@ -848,12 +845,11 @@ $head-color: #fff;
     width: auto;
   }
 
-.faq{ 
+  .faq {
     border-left: none;
     padding-right: 0;
-}
+  }
   .footer {
-
     &-info {
       width: 100%;
     }
@@ -925,33 +921,33 @@ $head-color: #fff;
   .stock {
     margin-bottom: 50px;
   }
-  .design__wrapper{
+  .design__wrapper {
     margin-bottom: 50px;
   }
-  .interior__box{
+  .interior__box {
     margin-bottom: 0;
   }
   .sample {
     padding-top: 0px;
   }
-  .model{
+  .model {
     padding-top: 0;
   }
-  .model__slider{
+  .model__slider {
     padding-top: 0;
   }
-  .model__slider{
+  .model__slider {
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  .artist{
+  .artist {
     margin-bottom: 50px;
   }
-  .subscription-adaptive{
+  .subscription-adaptive {
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  .blog__menu{
+  .blog__menu {
     margin-bottom: 0;
   }
   .picture__wrapper {
@@ -1142,7 +1138,6 @@ $head-color: #fff;
   }
 
   .tape {
-
     &-showroom__title,
     &-fitting__title,
     &-design__title,
@@ -1160,7 +1155,6 @@ $head-color: #fff;
   }
 
   .tape {
-
     &-showroom__title,
     &-fitting__title,
     &-design__title,
@@ -1198,5 +1192,3 @@ $head-color: #fff;
     right: 11px;
   }
 }
-
-

@@ -233,7 +233,8 @@
     margin-left: 7px; }
 
   .header-nav-menu-mobile.menu--open {
-    display: block; }
+    display: block;
+    top: -15px; }
 
   .search__button {
     display: flex;

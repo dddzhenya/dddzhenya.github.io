@@ -14,7 +14,7 @@ $head-color: #fff;
   &__wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 50px 60px
+    padding: 50px 60px;
   }
 
   &__link {
@@ -201,12 +201,12 @@ $head-color: #fff;
   &-catalog__description {
     width: 50%;
   }
-    &-submit__input:hover {
-      border: 0.5px solid #e3ae46;
-      color: #e3ae46;
-      cursor: pointer;
-    }
-    }
+  &-submit__input:hover {
+    border: 0.5px solid #e3ae46;
+    color: #e3ae46;
+    cursor: pointer;
+  }
+}
 
 .footer-contact {
   & {
@@ -304,10 +304,10 @@ $head-color: #fff;
     margin-top: 25px;
   }
 }
-.faq{
+.faq {
   border-left: 1px solid rgba(227, 229, 239, 0.2);
   padding-right: 35px;
 }
-.faq.active .answer{
-max-height: 300px;
+.faq.active .answer {
+  max-height: 300px;
 }
